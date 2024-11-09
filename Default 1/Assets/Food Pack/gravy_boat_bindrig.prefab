@@ -1,0 +1,145 @@
+- !<ObjectPrefab/9ba5bd1b-7d20-450e-ac1d-c2e28e8a64a3>
+  PackagePath: ""
+  objects:
+    - !<own> dec3ecf6-8e58-4712-9cb4-d5c92000458f
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/1ce3ec4e-7efd-480b-b91e-141be9b2d8e1>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> aba25ab4-808f-4417-b424-d35ecfa3cda4
+    - !<own> 56450675-40ae-4fe8-b5a3-43c1b056f58f
+  Components:
+    []
+- !<SceneObject/4c121966-4298-448a-a7d6-6f37a20c41d0>
+  PrefabRemaps:
+    []
+  Name: C_prop0001_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/56450675-40ae-4fe8-b5a3-43c1b056f58f>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e427b647-5e58-4ec9-81ad-1320d4a8e4f0
+  Components:
+    []
+- !<SceneObject/612aff2a-2aff-44c9-a5e8-471634699a43>
+  PrefabRemaps:
+    []
+  Name: C_gravyBoat_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c2c82bed-6a69-4e83-b6fd-72b8bac52bc7
+- !<SceneObject/aba25ab4-808f-4417-b424-d35ecfa3cda4>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 612aff2a-2aff-44c9-a5e8-471634699a43
+  Components:
+    []
+- !<Skin/beb796a9-c31f-427b-9c6e-b8efc4abb3fa>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_gravyBoat_GEO: !<reference> 612aff2a-2aff-44c9-a5e8-471634699a43
+    C_prop0001_bind_JNT: !<reference> 4c121966-4298-448a-a7d6-6f37a20c41d0
+    PROP: !<reference> 1ce3ec4e-7efd-480b-b91e-141be9b2d8e1
+    bind_GRP: !<reference> e427b647-5e58-4ec9-81ad-1320d4a8e4f0
+    geo_GRP: !<reference> aba25ab4-808f-4417-b424-d35ecfa3cda4
+    gravy_boat_bindrig: !<reference> dec3ecf6-8e58-4712-9cb4-d5c92000458f
+    rig_GRP: !<reference> 56450675-40ae-4fe8-b5a3-43c1b056f58f
+- !<RenderMeshVisual/c2c82bed-6a69-4e83-b6fd-72b8bac52bc7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a60836b4-efb5-4686-be8f-54ff64a503a5
+  Mesh: !<reference> bdd4e999-4f67-4f0f-8c44-41346740e660
+  Skin: !<reference> beb796a9-c31f-427b-9c6e-b8efc4abb3fa
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dec3ecf6-8e58-4712-9cb4-d5c92000458f>
+  PrefabRemaps:
+    []
+  Name: gravy_boat_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 15.000000, y: 10.391014, z: 0.000000}
+    rotation: {x: 30.767649, y: 21.088129, z: 6.501492}
+    scale: {x: 0.315827, y: 0.315827, z: 0.315827}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1ce3ec4e-7efd-480b-b91e-141be9b2d8e1
+  Components:
+    - !<own> beb796a9-c31f-427b-9c6e-b8efc4abb3fa
+- !<SceneObject/e427b647-5e58-4ec9-81ad-1320d4a8e4f0>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4c121966-4298-448a-a7d6-6f37a20c41d0
+  Components:
+    []

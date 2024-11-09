@@ -1,0 +1,215 @@
+- !<ObjectPrefab/0cdca5d2-9b77-4a19-927a-77283e360d87>
+  PackagePath: ""
+  objects:
+    - !<own> 6d08a153-620b-4ddf-90ac-0b345075ed31
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/13d5589b-397d-4c84-96a2-c63835691260>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cde911ec-718d-481e-87e9-6654fa9efdb2
+  Components:
+    []
+- !<SceneObject/26ce7485-3e3a-40b7-bf09-beddfdb54584>
+  PrefabRemaps:
+    []
+  Name: C_sandwich_bit_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 51e48111-9a28-4f76-989b-bc53c484e386
+- !<SceneObject/2e2429e6-5e91-40ec-a6a9-0474a58b3cad>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d6edfa58-8679-4e21-9b10-01e42fab2289
+    - !<own> 13d5589b-397d-4c84-96a2-c63835691260
+  Components:
+    []
+- !<SceneObject/3e091a05-f6d5-4a8a-8f35-413b9c0b647d>
+  PrefabRemaps:
+    []
+  Name: sandwich_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 26ce7485-3e3a-40b7-bf09-beddfdb54584
+    - !<own> 7f6f9d28-bbed-4406-9da7-3aaf6d3b500a
+  Components:
+    []
+- !<RenderMeshVisual/51e48111-9a28-4f76-989b-bc53c484e386>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e1de71b3-6808-4c04-b5f9-bdf48921f980
+  Mesh: !<reference> 8425d43c-58d4-4327-ac3d-13d054c3ee95
+  Skin: !<reference> 97885dc3-9ec3-42e7-b5a1-b480e9988e7f
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6d08a153-620b-4ddf-90ac-0b345075ed31>
+  PrefabRemaps:
+    []
+  Name: sandwich_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 5.405403, y: -17.606642, z: 0.000000}
+    rotation: {x: 4.629797, y: 28.204269, z: 1.767061}
+    scale: {x: 0.247729, y: 0.247729, z: 0.247729}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2e2429e6-5e91-40ec-a6a9-0474a58b3cad
+  Components:
+    - !<own> 97885dc3-9ec3-42e7-b5a1-b480e9988e7f
+- !<SceneObject/70aa59b7-bf3e-42a3-9818-700347237687>
+  PrefabRemaps:
+    []
+  Name: C_sandwichSub_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.371897, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7f6f9d28-bbed-4406-9da7-3aaf6d3b500a>
+  PrefabRemaps:
+    []
+  Name: C_sandwich_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fe3c7c61-fd86-425c-9eac-a4c0f0b1204c
+- !<Skin/97885dc3-9ec3-42e7-b5a1-b480e9988e7f>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    C_bite_bind_JNT: !<reference> 9bdb4127-00f7-40cd-843c-541f04929fe3
+    C_sandwichSub_bind_JNT: !<reference> 70aa59b7-bf3e-42a3-9818-700347237687
+    C_sandwich_GEO: !<reference> 7f6f9d28-bbed-4406-9da7-3aaf6d3b500a
+    C_sandwich_bit_GEO: !<reference> 26ce7485-3e3a-40b7-bf09-beddfdb54584
+    PROP: !<reference> 2e2429e6-5e91-40ec-a6a9-0474a58b3cad
+    bind_GRP: !<reference> cde911ec-718d-481e-87e9-6654fa9efdb2
+    geo_GRP: !<reference> d6edfa58-8679-4e21-9b10-01e42fab2289
+    rig_GRP: !<reference> 13d5589b-397d-4c84-96a2-c63835691260
+    sandwich_GRP: !<reference> 3e091a05-f6d5-4a8a-8f35-413b9c0b647d
+    sandwich_bindrig: !<reference> 6d08a153-620b-4ddf-90ac-0b345075ed31
+- !<SceneObject/9bdb4127-00f7-40cd-843c-541f04929fe3>
+  PrefabRemaps:
+    []
+  Name: C_bite_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 8.305008, y: 3.371897, z: 0.195460}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/cde911ec-718d-481e-87e9-6654fa9efdb2>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9bdb4127-00f7-40cd-843c-541f04929fe3
+    - !<own> 70aa59b7-bf3e-42a3-9818-700347237687
+  Components:
+    []
+- !<SceneObject/d6edfa58-8679-4e21-9b10-01e42fab2289>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3e091a05-f6d5-4a8a-8f35-413b9c0b647d
+  Components:
+    []
+- !<RenderMeshVisual/fe3c7c61-fd86-425c-9eac-a4c0f0b1204c>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e1de71b3-6808-4c04-b5f9-bdf48921f980
+  Mesh: !<reference> 28f80f4a-d777-4e26-81eb-3ae2ce808264
+  Skin: !<reference> 97885dc3-9ec3-42e7-b5a1-b480e9988e7f
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

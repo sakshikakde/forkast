@@ -1,0 +1,215 @@
+- !<ObjectPrefab/be4b1b30-e473-48e8-8aba-6d10c8fe3a7f>
+  PackagePath: ""
+  objects:
+    - !<own> f0fd7ab1-479f-4db8-afdc-8b69c63d1b1c
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/61738bd3-2d41-4310-9947-1c7563212c74>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 911d1e68-be46-473b-adf8-5ae62284049a
+    - !<own> d0c01a5f-d5b0-454a-a836-fff4a4e81bed
+  Components:
+    []
+- !<SceneObject/6adf7277-a3f8-4652-b4f4-1d938c4b922f>
+  PrefabRemaps:
+    []
+  Name: popcorn_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ce65f38f-8573-4231-8d8f-6e5b0527cc37
+    - !<own> d2f8fb13-ef2c-4176-b57f-23c0732959a7
+  Components:
+    []
+- !<SceneObject/911d1e68-be46-473b-adf8-5ae62284049a>
+  PrefabRemaps:
+    []
+  Name: C_popcornBucketSub_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 8.632977, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/92950b2f-4db0-42d5-8333-e159e9ad9049>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 61738bd3-2d41-4310-9947-1c7563212c74
+  Components:
+    []
+- !<SceneObject/940e0898-4224-4bf8-9881-bf299076908b>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d941a833-923d-46c3-82a9-156d2d8cc609
+    - !<own> 92950b2f-4db0-42d5-8333-e159e9ad9049
+  Components:
+    []
+- !<Skin/c28091cb-6044-4fb0-8ff5-5814041f13c4>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    C_popcornBucketSub_bind_JNT: !<reference> 911d1e68-be46-473b-adf8-5ae62284049a
+    C_popcorn_Bucket_GEO: !<reference> d2f8fb13-ef2c-4176-b57f-23c0732959a7
+    C_popcorn_GEO: !<reference> ce65f38f-8573-4231-8d8f-6e5b0527cc37
+    C_popcorn_bind_JNT: !<reference> d0c01a5f-d5b0-454a-a836-fff4a4e81bed
+    PROP: !<reference> 940e0898-4224-4bf8-9881-bf299076908b
+    bind_GRP: !<reference> 61738bd3-2d41-4310-9947-1c7563212c74
+    geo_GRP: !<reference> d941a833-923d-46c3-82a9-156d2d8cc609
+    popcorn_GRP: !<reference> 6adf7277-a3f8-4652-b4f4-1d938c4b922f
+    popcorn_bindrig: !<reference> f0fd7ab1-479f-4db8-afdc-8b69c63d1b1c
+    rig_GRP: !<reference> 92950b2f-4db0-42d5-8333-e159e9ad9049
+- !<SceneObject/ce65f38f-8573-4231-8d8f-6e5b0527cc37>
+  PrefabRemaps:
+    []
+  Name: C_popcorn_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ed57f627-8814-4d89-a75e-1ea61f453b1d
+- !<SceneObject/d0c01a5f-d5b0-454a-a836-fff4a4e81bed>
+  PrefabRemaps:
+    []
+  Name: C_popcorn_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 19.015953, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d2f8fb13-ef2c-4176-b57f-23c0732959a7>
+  PrefabRemaps:
+    []
+  Name: C_popcorn_Bucket_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e8bcc167-70a2-49c6-b109-aa92e83b75cf
+- !<SceneObject/d941a833-923d-46c3-82a9-156d2d8cc609>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6adf7277-a3f8-4652-b4f4-1d938c4b922f
+  Components:
+    []
+- !<RenderMeshVisual/e8bcc167-70a2-49c6-b109-aa92e83b75cf>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8b896bec-f31d-4e62-97e4-b57dde74fef1
+  Mesh: !<reference> 6a43c90a-7dd6-4428-8e58-96f9814fd71c
+  Skin: !<reference> c28091cb-6044-4fb0-8ff5-5814041f13c4
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ed57f627-8814-4d89-a75e-1ea61f453b1d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8b896bec-f31d-4e62-97e4-b57dde74fef1
+  Mesh: !<reference> a28341d0-9a41-4e04-886c-7ff48a31a511
+  Skin: !<reference> c28091cb-6044-4fb0-8ff5-5814041f13c4
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f0fd7ab1-479f-4db8-afdc-8b69c63d1b1c>
+  PrefabRemaps:
+    []
+  Name: popcorn_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.000000, y: -20.007801, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.173982, y: 0.173982, z: 0.173982}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 940e0898-4224-4bf8-9881-bf299076908b
+  Components:
+    - !<own> c28091cb-6044-4fb0-8ff5-5814041f13c4

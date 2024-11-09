@@ -1,0 +1,199 @@
+- !<ObjectPrefab/969d5a7d-48e3-4cfe-a409-21bad513c012>
+  PackagePath: ""
+  objects:
+    - !<own> 781b9dad-9683-4584-942f-7a113ab626eb
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/27158e02-ac6e-4de5-a99e-2c6dd0da65c9>
+  PrefabRemaps:
+    []
+  Name: C_trapDoor_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000002, y: 33.653862, z: -0.164014}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/5616b903-ba68-40f7-a947-73fe9bfc4a61>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ce14b68a-ba18-4a76-94f2-26108db5ae42
+  Mesh: !<reference> 67b1b961-c97e-4f80-a231-45855faf1c0b
+  Skin: !<reference> fb0def73-56f9-49e4-abad-f4792c45d593
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5aba13fd-c7c4-4fe9-a36c-a4dca90165da>
+  PrefabRemaps:
+    []
+  Name: C_basket_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/781b9dad-9683-4584-942f-7a113ab626eb>
+  PrefabRemaps:
+    []
+  Name: basket_apples_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.000000, y: -10.741077, z: 0.000000}
+    rotation: {x: 18.759024, y: 35.161179, z: -2.156397}
+    scale: {x: 0.103867, y: 0.103867, z: 0.103867}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c7811e96-ea65-443c-94b9-20d0af0bb58d
+  Components:
+    - !<own> fb0def73-56f9-49e4-abad-f4792c45d593
+- !<SceneObject/84cf8512-3dfc-4d46-bbc9-2c88409c6454>
+  PrefabRemaps:
+    []
+  Name: C_basket_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 902b597e-d39b-4e7d-b82c-51fd5b9664a2
+- !<RenderMeshVisual/902b597e-d39b-4e7d-b82c-51fd5b9664a2>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ce14b68a-ba18-4a76-94f2-26108db5ae42
+  Mesh: !<reference> 948dfa5e-bd79-4f61-b90f-dca1b55beb93
+  Skin: !<reference> fb0def73-56f9-49e4-abad-f4792c45d593
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c7811e96-ea65-443c-94b9-20d0af0bb58d>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cc16af3d-ded4-4dbe-b70a-58d905b03b57
+    - !<own> d6e3e359-18ff-4a0c-8db7-2773fbcc358b
+  Components:
+    []
+- !<SceneObject/cc16af3d-ded4-4dbe-b70a-58d905b03b57>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d5317321-9831-41e7-99ee-8c4f10b3bb63
+  Components:
+    []
+- !<SceneObject/d5317321-9831-41e7-99ee-8c4f10b3bb63>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5aba13fd-c7c4-4fe9-a36c-a4dca90165da
+    - !<own> 27158e02-ac6e-4de5-a99e-2c6dd0da65c9
+  Components:
+    []
+- !<SceneObject/d6e3e359-18ff-4a0c-8db7-2773fbcc358b>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 84cf8512-3dfc-4d46-bbc9-2c88409c6454
+    - !<own> f742f35d-04d4-4169-8619-2b60d87e998c
+  Components:
+    []
+- !<SceneObject/f742f35d-04d4-4169-8619-2b60d87e998c>
+  PrefabRemaps:
+    []
+  Name: C_appleTrapDoor_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5616b903-ba68-40f7-a947-73fe9bfc4a61
+- !<Skin/fb0def73-56f9-49e4-abad-f4792c45d593>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    C_appleTrapDoor_GEO: !<reference> f742f35d-04d4-4169-8619-2b60d87e998c
+    C_basket_GEO: !<reference> 84cf8512-3dfc-4d46-bbc9-2c88409c6454
+    C_basket_bind_JNT: !<reference> 5aba13fd-c7c4-4fe9-a36c-a4dca90165da
+    C_trapDoor_bind_JNT: !<reference> 27158e02-ac6e-4de5-a99e-2c6dd0da65c9
+    PROP: !<reference> c7811e96-ea65-443c-94b9-20d0af0bb58d
+    basket_apples_bindrig: !<reference> 781b9dad-9683-4584-942f-7a113ab626eb
+    bind_GRP: !<reference> d5317321-9831-41e7-99ee-8c4f10b3bb63
+    geo_GRP: !<reference> d6e3e359-18ff-4a0c-8db7-2773fbcc358b
+    rig_GRP: !<reference> cc16af3d-ded4-4dbe-b70a-58d905b03b57
