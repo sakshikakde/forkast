@@ -1,0 +1,58 @@
+- !<Material/ba577a51-c8ff-4055-8ef8-d0ad18049f04>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 8cb8414b-4795-477b-8d63-12acef7d5c68
+- !<PassInfo/8cb8414b-4795-477b-8d63-12acef7d5c68>
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Add
+  Properties:
+    Port_Input0_N003:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    brightness:
+      typeIdx: 1
+      value: 0.350000
+    handGlowTex:
+      typeIdx: 9
+      value:
+        id: 086403e6-c12d-49c8-9ee2-6515159eeb01
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    handGlowTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    handGlowTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    handGlowTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    handGlowTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  Pass: !<reference> 4322ce63-a3bb-4ee3-b767-bd2bd868491c
+  RTCaster: false
+  RTReceiver: false

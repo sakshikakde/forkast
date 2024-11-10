@@ -1,0 +1,85 @@
+- !<ObjectPrefab/89fed88e-f68b-4d7e-b58b-e8ab50b675e2>
+  PackagePath: ""
+  objects:
+    - !<own> 313a6b7d-8bf5-4371-afd9-028442dafdab
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/09c281d7-329f-4f3b-bfa3-3abbde075cfc>
+  PrefabRemaps:
+    []
+  Name: PinchButton
+  Enabled: true
+  ScriptAsset: !<reference> f353e632-677a-43be-bac1-2fd1fed38af4
+  ScriptInputsDefault:
+    editEventCallbacks: true
+    customFunctionForOnButtonPinched: true
+    onButtonPinchedFunctionNames: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editEventCallbacks: false
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onButtonPinchedFunctionNames: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/313a6b7d-8bf5-4371-afd9-028442dafdab>
+  PrefabRemaps:
+    []
+  Name: container-button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.935684, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fe02efec-695b-44e9-945d-69659fe09db6
+    - !<own> 828e8860-69ea-4eb3-8435-ef828bd6b23f
+    - !<own> 09c281d7-329f-4f3b-bfa3-3abbde075cfc
+- !<ScriptComponent/828e8860-69ea-4eb3-8435-ef828bd6b23f>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 17fad19e-1b73-4fa7-ac11-88854ea26567
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/fe02efec-695b-44e9-945d-69659fe09db6>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bed55ba2-7d6c-4e17-a6ba-80085c8303ea
+  Mesh: !<reference> 24da975a-2fb9-41cf-b6ae-f72d76cad063
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: true
+  BlendShapes:
+    Pinch: 0.000000
+    Z depth: 1.000000
