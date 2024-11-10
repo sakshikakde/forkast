@@ -1,4 +1,4 @@
-import { getCurrentScore } from "CalorieCount";  // Import score functions
+import { getCurrentScore, resetCurrentScore } from "CalorieCount";  // Import score functions
 
 @component
 export class NewScript extends BaseScriptComponent {
@@ -7,7 +7,8 @@ export class NewScript extends BaseScriptComponent {
     display: SceneObject;
     
     onAwake() {
-        this.createEvent("OnStartEvent").bind(this.displayText)
+        this.createEvent("OnStartEvent").bind(this.displayText);
+        resetCurrentScore();
     }
 
     displayText = () => {
