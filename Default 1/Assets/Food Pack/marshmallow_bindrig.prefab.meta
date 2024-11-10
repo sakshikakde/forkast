@@ -1,0 +1,188 @@
+- !<AssetImportMetadata/8746155a-6552-4db7-9bed-811d8b8be4c3>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 66325047-9bde-4ad1-8e8d-70364d756223
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 66325047-9bde-4ad1-8e8d-70364d756223
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> d4bb435b-0e38-4c68-8a91-a4b22a7002aa
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/85ca1698-381a-4d65-b4d1-8e0809a59bc5>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Skin/0f91a189-0322-4bdb-ad38-0941cd05ed56>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_marshmellow_GEO: !<reference> 8da72689-780a-4302-bcb5-80f68ff855bf
+    C_prop_bind_JNT: !<reference> 98bce421-8d1d-4f93-9299-3882cccbf529
+    PROP: !<reference> fb6f1b58-d05e-4782-a9d7-ac9d1fef63b5
+    bind_GRP: !<reference> 295f37fb-b3ed-44c7-a9af-c9fb5be9432f
+    geo_GRP: !<reference> f886dd78-e00b-4a04-b1d7-be5b1627b2ec
+    marshmallow_bindrig: !<reference> ad7c0eae-7425-41f3-afe6-1d82842db0a6
+    marshmellow_GRP: !<reference> fbceeba6-6fd4-455d-9155-173df4c4b749
+    rig_GRP: !<reference> f6cdbee2-ec0b-4dd6-a9c3-23fecb6f0eb7
+- !<ObjectPrefab/10e2d50b-0f5e-42f8-8275-8bc54f525d37>
+  PackagePath: ""
+  objects:
+    - !<own> ad7c0eae-7425-41f3-afe6-1d82842db0a6
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/295f37fb-b3ed-44c7-a9af-c9fb5be9432f>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 98bce421-8d1d-4f93-9299-3882cccbf529
+  Components:
+    []
+- !<SceneObject/8da72689-780a-4302-bcb5-80f68ff855bf>
+  PrefabRemaps:
+    []
+  Name: C_marshmellow_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e30aaad4-d333-40c8-9df9-5709710f08e7
+- !<SceneObject/98bce421-8d1d-4f93-9299-3882cccbf529>
+  PrefabRemaps:
+    []
+  Name: C_prop_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ad7c0eae-7425-41f3-afe6-1d82842db0a6>
+  PrefabRemaps:
+    []
+  Name: marshmallow_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.000000, y: 31.069063, z: 0.000000}
+    rotation: {x: -54.966923, y: -8.837418, z: 34.648247}
+    scale: {x: 0.742118, y: 0.742118, z: 0.742118}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fb6f1b58-d05e-4782-a9d7-ac9d1fef63b5
+  Components:
+    - !<own> 0f91a189-0322-4bdb-ad38-0941cd05ed56
+- !<ObjectPrefabAssetData/d4bb435b-0e38-4c68-8a91-a4b22a7002aa>
+  SourceRemaps:
+    - 3209649c-2138-4d1c-963a-6cdd122820f0: 8da72689-780a-4302-bcb5-80f68ff855bf
+    - 396d27c1-a711-45e2-8117-6abb904e5ac3: 0f91a189-0322-4bdb-ad38-0941cd05ed56
+    - 52bd6b41-16a2-40b1-b1b4-d2d454e1156d: fb6f1b58-d05e-4782-a9d7-ac9d1fef63b5
+    - 6c4a95c7-fa85-4cbc-8a4d-0f709fe9b74e: ad7c0eae-7425-41f3-afe6-1d82842db0a6
+    - 8238042a-8f76-42f8-bf77-8a1e14ac7e7e: f886dd78-e00b-4a04-b1d7-be5b1627b2ec
+    - 8ba8491c-c745-4932-b0ac-122ae72e64f1: 98bce421-8d1d-4f93-9299-3882cccbf529
+    - 96d4f3f8-685d-4639-ac64-272bbd3ab65b: 295f37fb-b3ed-44c7-a9af-c9fb5be9432f
+    - c70b3f60-470a-4fce-927c-5e3d49b586c5: e30aaad4-d333-40c8-9df9-5709710f08e7
+    - daa12c9b-e3f3-47a9-9932-2243c46529e8: fbceeba6-6fd4-455d-9155-173df4c4b749
+    - f09947b6-853c-42e3-9642-5c2f699b4345: f6cdbee2-ec0b-4dd6-a9c3-23fecb6f0eb7
+  SourceState: !<own> 10e2d50b-0f5e-42f8-8275-8bc54f525d37
+- !<RenderMeshVisual/e30aaad4-d333-40c8-9df9-5709710f08e7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d367a664-8081-4274-9b13-02bd461c5da0
+  Mesh: !<reference> 5bd56594-6a16-45aa-8463-354c67f6ff32
+  Skin: !<reference> 0f91a189-0322-4bdb-ad38-0941cd05ed56
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f6cdbee2-ec0b-4dd6-a9c3-23fecb6f0eb7>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 295f37fb-b3ed-44c7-a9af-c9fb5be9432f
+  Components:
+    []
+- !<SceneObject/f886dd78-e00b-4a04-b1d7-be5b1627b2ec>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fbceeba6-6fd4-455d-9155-173df4c4b749
+  Components:
+    []
+- !<SceneObject/fb6f1b58-d05e-4782-a9d7-ac9d1fef63b5>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f886dd78-e00b-4a04-b1d7-be5b1627b2ec
+    - !<own> f6cdbee2-ec0b-4dd6-a9c3-23fecb6f0eb7
+  Components:
+    []
+- !<SceneObject/fbceeba6-6fd4-455d-9155-173df4c4b749>
+  PrefabRemaps:
+    []
+  Name: marshmellow_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8da72689-780a-4302-bcb5-80f68ff855bf
+  Components:
+    []

@@ -1,0 +1,161 @@
+- !<ObjectPrefab/926c959f-e99c-40c6-8a83-d3b70258a08f>
+  PackagePath: ""
+  objects:
+    - !<own> 1ae32378-9b08-42ae-a070-873a45f625a9
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/0b193a47-94e9-4f12-9ab0-593d855a9661>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ca1e1067-9cd8-4f72-bc2f-de676c0450c3
+  Mesh: !<reference> aac66f3f-4d15-42a3-ae6c-b6446ae58288
+  Skin: !<reference> a932d32d-ab09-4fb5-afb9-624224f13558
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/165f3cdd-1074-4023-b0a6-1ba4ada5649c>
+  PrefabRemaps:
+    []
+  Name: C_food_orangeslice_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0b193a47-94e9-4f12-9ab0-593d855a9661
+- !<SceneObject/1ae32378-9b08-42ae-a070-873a45f625a9>
+  PrefabRemaps:
+    []
+  Name: orangeslice_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 15.000000, y: 30.780310, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.742118, y: 0.742118, z: 0.742118}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1c68f40c-742f-4c36-8cce-32262e16ec13
+  Components:
+    - !<own> a932d32d-ab09-4fb5-afb9-624224f13558
+- !<SceneObject/1c68f40c-742f-4c36-8cce-32262e16ec13>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fdefdb3b-1242-4cf7-a653-80add78caac8
+    - !<own> b6f056a8-a18c-4f57-9221-2bb3791530de
+  Components:
+    []
+- !<SceneObject/542940a8-6de1-4d3a-98eb-077ce25494e2>
+  PrefabRemaps:
+    []
+  Name: food_orangeslice_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 165f3cdd-1074-4023-b0a6-1ba4ada5649c
+  Components:
+    []
+- !<SceneObject/6740b09f-1a6c-48b3-926b-6cd4ed81bb3d>
+  PrefabRemaps:
+    []
+  Name: C_base_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 13.939119, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/a932d32d-ab09-4fb5-afb9-624224f13558>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_base_bind_JNT: !<reference> 6740b09f-1a6c-48b3-926b-6cd4ed81bb3d
+    C_food_orangeslice_GEO: !<reference> 165f3cdd-1074-4023-b0a6-1ba4ada5649c
+    PROP: !<reference> 1c68f40c-742f-4c36-8cce-32262e16ec13
+    bind_GRP: !<reference> bf2e0f09-e18c-4c40-bcb0-0168a3499c7e
+    food_orangeslice_GRP: !<reference> 542940a8-6de1-4d3a-98eb-077ce25494e2
+    geo_GRP: !<reference> b6f056a8-a18c-4f57-9221-2bb3791530de
+    orangeslice_bindrig: !<reference> 1ae32378-9b08-42ae-a070-873a45f625a9
+    rig_GRP: !<reference> fdefdb3b-1242-4cf7-a653-80add78caac8
+- !<SceneObject/b6f056a8-a18c-4f57-9221-2bb3791530de>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 542940a8-6de1-4d3a-98eb-077ce25494e2
+  Components:
+    []
+- !<SceneObject/bf2e0f09-e18c-4c40-bcb0-0168a3499c7e>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6740b09f-1a6c-48b3-926b-6cd4ed81bb3d
+  Components:
+    []
+- !<SceneObject/fdefdb3b-1242-4cf7-a653-80add78caac8>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bf2e0f09-e18c-4c40-bcb0-0168a3499c7e
+  Components:
+    []
