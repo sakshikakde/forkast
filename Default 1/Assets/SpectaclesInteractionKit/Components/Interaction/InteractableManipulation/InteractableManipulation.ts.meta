@@ -94,5 +94,5 @@
     - "// @input bool _enableYTranslation = true {\"hint\":\"Enable translation along the world's Y-axis.\", \"showIf\":\"showTranslationProperties\", \"showIfValue\":true}"
     - "// @input bool _enableZTranslation = true {\"hint\":\"Enable translation along the world's Z-axis.\", \"showIf\":\"showTranslationProperties\", \"showIfValue\":true}"
     - // @input bool showRotationProperties = false
-    - '// @input string _rotationAxis = "All" {"hint":"Enable rotation about all axes or a single world axis (x,y,z) when using to two hands.", "widget":"combobox", "values":[{"label":"All", "value":"All"}, {"label":"X", "value":"X"}, {"label":"Y", "value":"Y"}, {"label":"Z", "value":"Z"}], "showIf":"showRotationProperties", "showIfValue":true}'
+    - "// @input string _rotationAxis = 'All' {\"hint\":\"Enable rotation about all axes or a single world axis (x,y,z) when using to two hands.\", \"widget\":\"combobox\", \"values\":[{\"label\":\"All\", \"value\":\"All\"}, {\"label\":\"X\", \"value\":\"X\"}, {\"label\":\"Y\", \"value\":\"Y\"}, {\"label\":\"Z\", \"value\":\"Z\"}], \"showIf\":\"showRotationProperties\", \"showIfValue\":true}"
     - '// @ui {"widget":"group_end"}'
