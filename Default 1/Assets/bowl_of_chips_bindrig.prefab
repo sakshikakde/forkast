@@ -468,12 +468,13 @@
   Enabled: true
   ScriptAsset: !<reference> 1ed6803c-621c-46fe-90e3-99bcc9c37a77
   ScriptInputsDefault:
-    {}
+    display: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
       basket: !<reference.SceneObject> 8657c0c1-d9d2-48c1-bcca-172ce8c7a0c7
+      display: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}

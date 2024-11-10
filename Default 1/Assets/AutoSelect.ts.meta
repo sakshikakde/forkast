@@ -25,14 +25,17 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     basket: false
+    display: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
     - parentBasket: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
       childBasket: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       basket: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      display: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input SceneObject basket
+    - // @input SceneObject display
