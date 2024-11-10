@@ -44,10 +44,10 @@ export class BasketController extends BaseScriptComponent {
             let dispComponents = this.display.getComponent("Component.Text");
             // textComponents.text = currentScore.toString()
             var currentScore = getCurrentScore();
-            dispComponents.text = currentScore.toString() + "/100 Consumed";
+            dispComponents.text = currentScore.toString() + "/1000  Calories Consumed";
             // textComponents.text = "updatedScore.toString()";
             let color = new vec4(0, 0, 1, 1); // RGBA
-            var remainingCalories = 100 - currentScore
+            var remainingCalories = 1000 - currentScore
             if(remainingCalories < 0) {
                 color = new vec4(1, 0, 0, 1); // RGBA
             } else if (remainingCalories > 60) {

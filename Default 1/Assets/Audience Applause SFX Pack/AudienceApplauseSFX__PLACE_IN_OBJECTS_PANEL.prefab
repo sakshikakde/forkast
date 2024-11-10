@@ -1,0 +1,119 @@
+- !<ObjectPrefab/50e8351a-87f2-4257-a46d-1b5419091112>
+  PackagePath: ""
+  objects:
+    - !<own> 04fd5f0d-9cc8-4435-b70a-3bd1ac5d5d62
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/04fd5f0d-9cc8-4435-b70a-3bd1ac5d5d62>
+  PrefabRemaps:
+    []
+  Name: AudienceApplauseSFX__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2f7046b3-50c9-4d68-af9a-a9a0b90b58d8
+    - !<own> 506c85f5-9f73-4af7-a24a-7021e3868a02
+    - !<own> f806493d-9d30-47f1-a967-04e29bd1b5a9
+  Components:
+    []
+- !<SceneObject/2f7046b3-50c9-4d68-af9a-a9a0b90b58d8>
+  PrefabRemaps:
+    []
+  Name: Cheering Long
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 395209cc-7bea-4f53-9d4e-52cf14f852dd
+- !<AudioComponent/395209cc-7bea-4f53-9d4e-52cf14f852dd>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 5b605fca-510e-49d6-883a-37b67987639b
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/506c85f5-9f73-4af7-a24a-7021e3868a02>
+  PrefabRemaps:
+    []
+  Name: Cheering Mid
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5f4bc203-5980-4842-b129-f8257a5f220f
+- !<AudioComponent/5f4bc203-5980-4842-b129-f8257a5f220f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 70f5b957-a301-4f42-9b33-27657d43fed9
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/d73f1e4a-ce08-4ffa-9d9d-02150449ce1f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> d8f60813-cb79-4faf-9b1f-121480d76056
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/f806493d-9d30-47f1-a967-04e29bd1b5a9>
+  PrefabRemaps:
+    []
+  Name: Cheering Short
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d73f1e4a-ce08-4ffa-9d9d-02150449ce1f
