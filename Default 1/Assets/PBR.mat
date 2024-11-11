@@ -1,8 +1,8 @@
-- !<Material/db071577-421e-4100-9be2-3a31e79d73d7>
+- !<Material/f600e1a9-1883-441f-8e63-9a53c5acf507>
   PackagePath: ""
   PassesInfo:
-    - !<own> dd8cdc5f-ab47-4ffe-ad64-8d36f35baef9
-- !<PassInfo/dd8cdc5f-ab47-4ffe-ad64-8d36f35baef9>
+    - !<own> 5f9f0172-fff3-48b4-ba05-d95f67f4cee1
+- !<PassInfo/5f9f0172-fff3-48b4-ba05-d95f67f4cee1>
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -115,4 +115,4 @@
     uvScale:
       typeIdx: 1
       value: 1.000000
-  Pass: !<reference> 37a54fec-2327-4b66-8d31-2810588c36c3
+  Pass: !<reference> abc2be33-853a-4b90-9101-55572242f331

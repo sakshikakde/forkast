@@ -1,0 +1,28 @@
+- !<AssetImportMetadata/4ab90b34-f092-4294-ab37-953f742da4de>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> e1db67ec-abd8-4c21-b7f8-c1a976019ebb
+    LPD-290_UI_Audio_Search_sequence_v01.png: !<reference> acdc0702-66fa-4bb3-b7c1-10c082619622
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> e1db67ec-abd8-4c21-b7f8-c1a976019ebb
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpackedTransparent
+  AssetDataMap:
+    AnimatedTexture: !<own> 1f77812c-7589-45b3-b8bb-702e42477ef6
+  DependentFiles:
+    - LPD-290_UI_Audio_Search_sequence_v01.png
+  ImporterSettings: !<AssetImporterSettings/a3be8f20-00da-4a74-8fc2-1965d45a384d>
+    {}
+  CompressionSettings: !<SingleCompressionSettings/7de8838a-3e1e-4fea-8e61-5328366585e1>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AnimatedTextureData/1f77812c-7589-45b3-b8bb-702e42477ef6>
+  AutoPlay: false
+  Reversed: false
+  PingPong: false
+  CurrentSequence: LPD_282
+  KeyFramesData:
+    LPD_282:
+      - time: 0.000000
+        value: 0
+      - time: 2.400000
+        value: 36
